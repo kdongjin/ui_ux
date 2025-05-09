@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    ul{
+      list-style: none;
+      display: flex;
+      background-color: rgb(53,94,169);
+    }
+    a {
+      text-decoration: none;
+      display: inline-block;
+      padding: 10px;
+      color: #fff;
+    }
+    a:link, a:active, a:hover {
+      color: black;
+    }
+   
+    .dropdown-content{
+      display: none;
+      position: absolute;
+      box-shadow: 0px 8px 16px 0px rgb(0,0,0);
+      background-color: #f9f9f9;
+      z-index: 1;
+    }
+    .dropdown:hover .dropdown-content{
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: rgb(53,94,169);
+    }
+    .dropdown-content a{
+      display: block;
+      color: #6799ff;
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <li><a href="#">home</a></li>
+    <li><a href="#">home</a></li>
+    <li class="dropdown">
+      <a href="#" class="dropbtn">drop</a>
+      <div class="dropdown-content">
+        <a href="#">home</a>
+        <a href="#">home</a>
+        <a href="#">home</a>
+      </div>
+    </li>
+  </ul>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, eveniet nisi ex tenetur praesentium, accusantium sed eius minus omnis sequi debitis, voluptatibus commodi quidem. Id est deleniti nemo sequi quibusdam!
+  Aliquid quaerat temporibus quod maxime sequi odio voluptas asperiores tempore sapiente doloribus, doloremque rem libero illum nesciunt exercitationem beatae distinctio pariatur quo ipsam aspernatur similique veniam voluptate laudantium deleniti. Dignissimos.
+  Sapiente quas dolorem adipisci quam omnis delectus aperiam tenetur reiciendis quasi assumenda, corrupti blanditiis dolore. Animi iusto consequatur ducimus nihil porro, quidem necessitatibus tempora placeat ipsam non. Non, esse qui?
+  Numquam possimus animi ipsa provident perferendis ut praesentium. Delectus facilis labore eaque velit sunt quia voluptatum possimus neque. Totam ex ut impedit quas eos ipsam qui voluptatum rem veniam quos.
+  Perspiciatis quae fuga soluta animi commodi rem reiciendis. Vel possimus aut non placeat nemo molestias, unde corporis ullam facere assumenda vitae repellat impedit fugiat natus, architecto cumque magni dolorem obcaecati.</p>
+</body>
+</html>
